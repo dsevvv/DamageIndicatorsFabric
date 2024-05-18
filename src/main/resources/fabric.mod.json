@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "damageindicatorsfabric",
+  "version": "${version}",
+  "name": "DamageIndicatorsFabric",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/dsevr/DamageIndicatorsFabric"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/damageindicatorsfabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ca.rpgcraft.damageindicatorsfabric.client.DamageIndicatorsFabricClient"
+    ],
+    "main": [
+      "ca.rpgcraft.damageindicatorsfabric.DamageIndicatorsFabric"
+    ]
+  },
+  "mixins": [
+    "damageindicatorsfabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

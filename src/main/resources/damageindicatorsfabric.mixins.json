@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ca.rpgcraft.damageindicatorsfabric.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ArmorStandMixin",
+    "DamageIndicatorMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
